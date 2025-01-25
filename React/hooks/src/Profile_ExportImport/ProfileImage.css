@@ -1,0 +1,43 @@
+.portfolio-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+    margin: 20px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dotted black;
+    background-color: white;
+
+}
+
+.portfolio-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.portfolio-div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 20px;
+}
+
+
