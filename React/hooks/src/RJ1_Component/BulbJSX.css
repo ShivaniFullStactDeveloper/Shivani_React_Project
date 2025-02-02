@@ -1,0 +1,64 @@
+.main-container{
+    height: 40vw;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border: 1px black solid;
+
+}
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    gap: 40px;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    background-color: lightslategray;
+    font-size: 24px;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* Media queries */
+@media (max-width: 200px) {
+    img {
+      width: 150px; /* Reduce bulb size for smaller screens */
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    img {
+      width: 150px; /* Further reduce bulb size for very small screens */
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 6px 12px;
+      width: 100px;
+      height: 30 px;
+    }
+  
+  
+
+    .main-container{
+        height: 60vw;
+        width: 80vh;
+    }
+  }  

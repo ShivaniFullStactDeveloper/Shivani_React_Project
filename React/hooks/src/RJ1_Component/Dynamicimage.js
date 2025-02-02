@@ -2,7 +2,7 @@ import React ,{useState} from "react";
 import './DynamicImage.css'
 
  function DynaminImage(){
-    const [selectFruit, setSelectFruit]= useState("apple");
+    const [selectFruit, setSelectFruit]= useState("Apple");
 
     // image for different fruits
     const fruitImage= {

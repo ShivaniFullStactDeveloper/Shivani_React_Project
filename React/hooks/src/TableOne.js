@@ -8,10 +8,8 @@ class TableOne extends React.Component {
         this.state = {tableOf: 1}
 
     }
-
-
-
-    renderCell = (tableOf, number) => {
+    
+renderCell = (tableOf, number) => {
         return (
             <div className='row'>
                 <table className='cell-button'>{tableOf}</table>
