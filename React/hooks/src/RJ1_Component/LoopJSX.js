@@ -14,6 +14,6 @@ export default class LoopJSX extends React.Component {
                     })}
                 </ul>
             </div>
-        );
+        );        
     };
 }

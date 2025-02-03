@@ -6,7 +6,7 @@ export default class ConditionalJSX extends React.Component {
 
         const date = new Date();//get the current date and time
         const hours = date.getHours();// get the current hour
-        const minutes = date.getMinutes();//get the current minutes
+        const minutes = date.getMinute12s();//get the current minutes
 
         if(hours < 12){
             greeting = "Good Morning";

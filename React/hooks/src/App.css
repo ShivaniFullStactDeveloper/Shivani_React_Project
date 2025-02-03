@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   padding: 0px;
 }
 
@@ -21,8 +22,10 @@
 }
 
 .App-header {
-  background-color: lightgray;
-  min-height: 120vw;
+  background-color: rgb(34, 30, 30);
+  margin-top: 10px;
+  min-height: 50vw;
+  padding: 0px;
   width: 100vw;
   display: flex;
   flex-direction: column;

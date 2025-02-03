@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+}
+
+.fruit-image{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    border: 1px solid black;
+}
+
+select{
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+}

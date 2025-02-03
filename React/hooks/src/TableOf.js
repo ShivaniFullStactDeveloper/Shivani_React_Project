@@ -1,5 +1,6 @@
 import React from 'react'
 import './TableOne.css'
+import TableOne from './TableOne';
 class TableOf extends React.Component {
 
     renderTableOf = () => {
@@ -40,6 +41,7 @@ class TableOf extends React.Component {
          <div className='table'>
              {this.renderTableOf()}
              {/* {this.renderTable()} */}
+        
          </div>
          )
      };

@@ -1,6 +1,7 @@
 import React from 'react'
 import './TableOne.css'
 
+
 class TableOne extends React.Component {
     constructor(props) {
         super(props);
@@ -38,6 +39,7 @@ renderCell = (tableOf, number) => {
         <div className='table'>
         
             {this.renderTable()}
+      
         </div>
         )
     };
